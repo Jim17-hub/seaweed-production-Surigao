@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/MUNICIPALWATERS_1.js"></script><script src="layers/SANPEDROSEAWEEDSAREA_2.js"></script><script src="layers/SUGBAYSEAWEEDSAREA_3.js"></script><script src="layers/DANAWANSEAWEEDSAREA_4.js"></script><script src="layers/BAYBAYSEAWEEDSAREA_5.js"></script><script src="layers/BITAUGANSEAWEEDSAREA_6.js"></script><script src="layers/CAGUTSANSEAWWEEDSAREA_7.js"></script><script src="layers/SANJOSESEAWEEDSAREA_8.js"></script><script src="layers/SABANGSEAWEEDSAREA_9.js"></script><script src="layers/BILABIDSEAWEEDSAREA_10.js"></script><script src="layers/ALEGRIASEAWEEDSAREA_11.js"></script><script src="layers/NONOCSEAWEEDSAREA_12.js"></script><script src="layers/MANJAGAOSEAWEEDSAREA_13.js"></script><script src="layers/AURORASEAWEEDSAREA_14.js"></script><script src="layers/LISONDRASEAWEEDSAREA_15.js"></script><script src="layers/NABAGOSEAWEEDSAREA_16.js"></script><script src="layers/POLITICALBDRY_19.js"></script>
+        <script src="styles/MUNICIPALWATERS_1_style.js"></script><script src="styles/SANPEDROSEAWEEDSAREA_2_style.js"></script><script src="styles/SUGBAYSEAWEEDSAREA_3_style.js"></script><script src="styles/DANAWANSEAWEEDSAREA_4_style.js"></script><script src="styles/BAYBAYSEAWEEDSAREA_5_style.js"></script><script src="styles/BITAUGANSEAWEEDSAREA_6_style.js"></script><script src="styles/CAGUTSANSEAWWEEDSAREA_7_style.js"></script><script src="styles/SANJOSESEAWEEDSAREA_8_style.js"></script><script src="styles/SABANGSEAWEEDSAREA_9_style.js"></script><script src="styles/BILABIDSEAWEEDSAREA_10_style.js"></script><script src="styles/ALEGRIASEAWEEDSAREA_11_style.js"></script><script src="styles/NONOCSEAWEEDSAREA_12_style.js"></script><script src="styles/MANJAGAOSEAWEEDSAREA_13_style.js"></script><script src="styles/AURORASEAWEEDSAREA_14_style.js"></script><script src="styles/LISONDRASEAWEEDSAREA_15_style.js"></script><script src="styles/NABAGOSEAWEEDSAREA_16_style.js"></script><script src="styles/POLITICALBDRY_19_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
